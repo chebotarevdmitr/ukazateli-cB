@@ -24,7 +24,7 @@ int main()
 {
     int numbers[5] = { 5,4,-2,29,6 };
     cout << "Min is =" << getMin(numbers, 5)<<endl;
-    cout << "Min is =" << getMin(numbers, 5)<<endl;
+    cout << "Max is =" << getMax(numbers, 5)<<endl;
     system("pause>0");
     return 0;
 }
