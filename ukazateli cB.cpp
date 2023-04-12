@@ -36,7 +36,11 @@ int main()
     cout << "Max is =" << getMax(numbers, 5)<<endl;
     */
 
-
+    int max = numbers[0];
+    int min = numbers[0];
+    getMinAndMax(numbers, 5, &min, &max);
+    cout << "max is =" << max << endl;
+    cout << "min is =" << min << endl;
     system("pause>0");
     return 0;
 }
